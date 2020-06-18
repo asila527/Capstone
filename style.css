@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color:#545454;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    color: #4B4B4B;
+}
+
+h1 {
+    font-weight: 800px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orientation-text a {
+    color: #4285f4;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.header-mobile {
+    display: none;
+}
+
+/* logo */
+
+.logo-text {
+    font-weight: normal;
+    color: #9B9B9B;
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.logo-image {
+    width: 40px;
+    height: auto;
+}
+
+/* nav */
+li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 8px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+nav {
+    text-align: right;
+    padding: 0 24px;
+}
+
+/*banner*/
+
+.intro {
+    background: gainsboro;
+    display: flex;
+    align-items: center;
+}
+
+.intro-image {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.intro-image img {
+    width: 100%;
+    overflow: none;
+}
+
+.intro-text {
+    width: 65%;
+}
+
+.intro-text h2 {
+    line-height: 3rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button {
+    background: #4A4A4A;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 600;
+}
+
+.button p {
+    padding: 8px 0;
+    color: white;
+}
+
+/*Detail*/
+.detail {
+    display: flex;
+}
+
+.practice {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+img {
+    width: 100%;
+    overflow: none;
+    height: auto;
+}
+
+.practice h2 {
+    margin-top: 32px;
+}
+
+.practice p {
+    margin: 24px 0px;
+}
+
+p.sig {
+    font-size: 0.85rem;
+}
+
+.campus-info {
+    width: 40%;
+    padding: 16px 0;
+    border-left: #D8D8D8 solid 1px;
+}
+
+.orientation {
+    display: flex;
+    border-bottom:#D8D8D8 1px solid;
+    padding: 16px;
+}
+
+.orientation-pic {
+    width: 35%;
+}
+
+.orientation-mobile {
+    display: none;
+}
+
+.orientation-text {
+    width: 65%;
+    padding: 25px;
+}
+
+.orientation-text p {
+    padding: 8px 0;
+}
+
+.gray-background {
+    background: #D8D8D8;
+}
+
+/*Start Learning*/
+.learning {
+    background: #EAEBEC;
+}
+
+.learning h2 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.card {
+    width: 33.3333%;
+    padding: 16px;
+}
+
+.cards-text {
+    background: white;
+    padding: 16px 16px 24px;
+    font-size: 0px;
+}
+
+.learning-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 56px 32px;
+}
+
+.learning-cards-mobile {
+    display: none;
+}
+
+.courses {
+    padding: 8px 0;
+}
+
+/*Exhibit*/
+.exhibit {
+    background: #F3F5F5;
+}
+
+.exhibit h2 {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.exhibit-section {
+    display: flex;
+}
+
+.video-container {
+    width: 60%;
+    padding: 0 24px 32px;
+}
+
+.exhibit-section-mobile {
+    display: none;
+}
+
+.exhibit-pic-container {
+    width: 40%;
+}
+
+.exhibit-pics {
+    display: flex;
+    align-content: center;
+}
+
+.gray {
+    background: #D8D8D8;
+}
+
+.fisma-container {
+    width: 35%;
+    padding: 16px;
+}
+
+.fisma-container img {
+    overflow: hidden;
+    height: auto;
+}
+
+.fisma-text {
+    width: 55%;
+}
+
+.fisma {
+    display: flex;
+    align-content: center;
+}
+
+.fisma-text {
+    margin: auto 0;
+}
+
+.video-text h4 {
+    padding: 24px 0 8px;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-top: solid 1px #D8D8D8;
+}
+
+.footer-terms {
+    display: flex;
+}
+
+.footer-buttons {
+    padding: 0 10px;
+}
+
+.footer p {
+    font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-terms, .practice, .header {
+        display: none;
+    }
+    .header-mobile {
+        display: flex;
+        justify-content: space-evenly;
+        height: 64px;
+        align-items: center;
+    }
+    
+    .intro {
+        flex-direction: column;
+    
+    }
+    .intro-image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .intro-text {
+        width: 95%;
+        padding: 32px 16px;
+        margin: 0 auto;
+    }
+
+    .intro-text h2, h4, buttton {
+        padding: 0;
+    }
+
+    .intro-text h4 {
+        padding: 32px 0 24px;
+    }
+
+    .button {
+        margin: 32px 0;
+        background: #9B9B9B;
+    }
+
+    .orientation {
+        flex-direction: column;
+        padding: 0;
+        background:#F5F4F5;
+        border: none;
+    }
+
+    .orientation-text {
+        padding-top: 0;
+        padding-bottom: 32px;
+    }
+
+    .orientation-text a {
+        font-weight: 600;
+    }
+
+    .orientation-text, .campus-info {
+        width: 100%;
+    }
+
+    .campus-info {
+        padding: 0;
+    }
+
+    .orientation-mobile {
+        width: 100%;
+        padding: 16px;
+        display: block;
+    }
+
+    .orientation-mobile img {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .orientation-pic {
+        display: none;
+    }
+
+    .learning-cards {
+        display: none;
+    }
+
+    .learning {
+        background: #F5F4F5;
+    }
+
+    .learning-cards-mobile {
+        display: block;
+        width: 100%;
+        padding-bottom: 32px;
+    }
+
+    .learning-cards-mobile div {
+        box-sizing: border-box;
+        margin: 8px 16px;
+        padding: 16px 16px 24px 16px;
+        background: #D8D8D8;
+    }
+
+    .learning h2 {
+        padding: 32px 0 16px;
+    }
+
+    .exhibit-section {
+        display: none;
+    }
+
+    .exhibit-section-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .video-container {
+        width: 100%;
+        padding: 0 0 24px;
+    }
+
+    .exhibit h2 {
+        padding: 32px 0 16px;
+    }
+
+    .exhibit {
+        background: #F5F4F5;
+        border-top: 1px solid lightgray;
+    }
+
+    .gray-background {
+        background: #F5F4F5;
+        border-bottom: solid lightgray 1px;
+    }
+
+    .footer {
+        border: none;
+        background: #F5F4F5;
+    }
+
+}
+
